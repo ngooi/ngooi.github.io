@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Ngooi]]></title>
+  <subtitle><![CDATA[I meet thousands of people and none of them really touch me. I met one and he changed my whole life.]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://ngooi.cn/"/>
+  <updated>2014-11-11T15:03:05.378Z</updated>
+  <id>http://ngooi.cn/</id>
+  
+  <author>
+    <name><![CDATA[Ngooi.cn]]></name>
+    <email><![CDATA[ngooi@qq.com]]></email>
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[我不要！]]></title>
+    <link href="http://ngooi.cn/2014/11/11/gai-bian-zi-ji/"/>
+    <id>http://ngooi.cn/2014/11/11/gai-bian-zi-ji/</id>
+    <published>2014-11-11T08:51:24.000Z</published>
+    <updated>2014-11-11T10:12:56.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="我要改变自己！">我要改变自己！</h1>
+<h2 id="我不要">我不要</h2>
+<h1 id="胆小！">胆小！</h1>
+<h1 id="软弱！">软弱！</h1>
+<h1 id="我！不！要！">我！不！要！</h1>
+<h2 id="我要我想要的生活！">我要我想要的生活！</h2>
+<p><a id="more"></a></p>
+<h1 id="不要！">不要！</h1>
+<h2 id="现在这样的自己！">现在这样的自己！</h2>
+<h1 id="我不要！">我不要！</h1>
+<h2 id="这样无助的我">这样无助的我</h2>
+<h1 id="！努力！一定要努力">！努力！一定要努力</h1>
+<h2 id="我不要淘宝！">我不要淘宝！</h2>
+<h2 id="我不要天猫！">我不要天猫！</h2>
+<h1 id="我都不要！！！！">我都不要！！！！</h1>
+<h1 id="改变！">改变！</h1>
+<h1 id="自己！">自己！</h1>
+<h1 id="从明天开始！">从明天开始！</h1>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">做自己想做的事！</div></pre></td></tr></table></figure>
+
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="我要改变自己！">我要改变自己！</h1>
+<h2 id="我不要">我不要</h2>
+<h1 id="胆小！">胆小！</h1>
+<h1 id="软弱！">软弱！</h1>
+<h1 id="我！不！要！">我！不！要！</h1>
+<h2 id="我要我想要的生活！">我要我想要的生活！</h2>
+<p>]]>
+    
+    </summary>
+    
+      <category term="锐变" scheme="http://ngooi.cn/tags/%E9%94%90%E5%8F%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[github hexo博客搭建(三)]]></title>
+    <link href="http://ngooi.cn/2014/11/10/hexo-blog-da-jian-3/"/>
+    <id>http://ngooi.cn/2014/11/10/hexo-blog-da-jian-3/</id>
+    <published>2014-11-10T14:03:20.000Z</published>
+    <updated>2014-11-11T10:09:26.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="hexo_github_page_独立域名绑定">hexo github page 独立域名绑定</h2>
+<p>首先，你得有个域名！关于域名去哪里注册，推荐国外。比如说狗爹（<a href="http://www.godaddy.com" target="_blank" rel="external">godaddy</a>)或者是<a href="http://www.namesilo.com" target="_blank" rel="external">namesilo</a>(强推这个，免费送whios保护。价格比godaddy还便宜)。cn的话只有国内可以注册。比如本站的ngooi.cn，是在西部数码注册，万网也不错，就是比较贵。这个你萌喜欢！</p>
+<h2 id="GitHub_Pages的设置">GitHub Pages的设置</h2>
+<ul>
+<li>登陆你的<a href="http://github.com" target="_blank" rel="external">github</a>在Repository的根目录下面，新建一个名为CNAME的文本文件,看图，点那个<code>+</code><br><img src="/img/hexo6.jpg" alt=""></li>
+</ul>
+<p><a id="more"></a></p>
+<ul>
+<li>然后像图中那样，把(ngooi.cn)域名换成你的域名,点击下面的按键“commit new file”就OK了。<br><img src="img/hexo7.jpg" alt=""></li>
+</ul>
+<h2 id="DNS设置">DNS设置</h2>
+<p>用DNSPOD，你也可以用其它的。推荐用这个，快，免费，稳定。<br>首先注册个DNSpod,添加域名，如图：<br><img src="img/hexo5.jpg" alt=""></p>
+<p>其中A的两条记录指向的ip地址是github Pages的提供的ip</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">192.30.252.153</div><div class="line">192.30.252.154</div></pre></td></tr></table></figure>
+
+<p>如博客不能登录，有可能是github更改了空间服务的ip地址，记得及时到在GitHub Pages查看最新的ip即可</p>
+<p><code>*</code>指定的记录是你在github注册的仓库。</p>
+<h2 id="注意">注意</h2>
+<p>记得把域名的NDS地址改为DNSPOD的！网上有好多这个教程，不会自己百度一下，很简单的。<br>至此，独立博客就算搭建完成！如果还有不会的话，可以加我QQ：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">QQ</span>:五<span class="number">1989</span>零<span class="number">54</span>叁.</div></pre></td></tr></table></figure>
+
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="hexo_github_page_独立域名绑定">hexo github page 独立域名绑定</h2>
+<p>首先，你得有个域名！关于域名去哪里注册，推荐国外。比如说狗爹（<a href="http://www.godaddy.com" target="_blank" rel="external">godaddy</a>)或者是<a href="http://www.namesilo.com" target="_blank" rel="external">namesilo</a>(强推这个，免费送whios保护。价格比godaddy还便宜)。cn的话只有国内可以注册。比如本站的ngooi.cn，是在西部数码注册，万网也不错，就是比较贵。这个你萌喜欢！</p>
+<h2 id="GitHub_Pages的设置">GitHub Pages的设置</h2>
+<ul>
+<li>登陆你的<a href="http://github.com" target="_blank" rel="external">github</a>在Repository的根目录下面，新建一个名为CNAME的文本文件,看图，点那个<code>+</code><br><img src="/img/hexo6.jpg" alt=""></li>
+</ul>
+<p>]]>
+    
+    </summary>
+    
+      <category term="hexo博客" scheme="http://ngooi.cn/tags/hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[github hexo博客搭建(二)]]></title>
+    <link href="http://ngooi.cn/2014/11/10/hexo-blog-da-jian-2/"/>
+    <id>http://ngooi.cn/2014/11/10/hexo-blog-da-jian-2/</id>
+    <published>2014-11-10T08:03:27.000Z</published>
+    <updated>2014-11-11T10:09:57.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="IN_WINDOWS">IN WINDOWS</h2>
+<p>接上一章，首先:</p>
+<h2 id="注册Github账号">注册Github账号</h2>
+<p>已有账号可以跳过，没有的，请<a href="https://github.com/signup/free" target="_blank" rel="external">点这里</a>进行注册。表说你不会！</p>
+<h2 id="创建repository">创建repository</h2>
+<p>在自己<a href="https://github.com/" target="_blank" rel="external">Github</a>主页右上角，点“+”创建一个新的New repository。比如我的Github账号是ngooi，那么我应该创建的repository名字应该是ngooi.github.io。这里很重要！我一开始就在这里跌倒了，名字一定要以<code>github.io</code>结尾！如图，把“ngooi”换成自己的名字就可以。<br><img src="/img/hexo2.jpg" alt=""></p>
+<a id="more"></a>
+
+<h2 id="配置SSH_keys">配置SSH keys</h2>
+<p>首先我们需要检查你电脑上现有的ssh key：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ <span class="keyword">cd</span>`/.ssh 检查本机的ssh密钥</div><div class="line">如果提示：No such <span class="keyword">file</span> <span class="built_in">or</span> directory 说明你是第一次使用git。</div></pre></td></tr></table></figure>
+
+<h2 id="生成新的SSH_Key：">生成新的SSH Key：</h2>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$ </span>ssh-keygen -t rsa -<span class="constant">C</span> <span class="string">"邮件地址@youremail.com"</span> 填入你的email回车就好了</div><div class="line"><span class="constant">Enter</span> file <span class="keyword">in</span> which to save the key (<span class="regexp">/Users/your</span>_user_directory/.ssh/id_rsa)<span class="symbol">:&lt;</span>回车就好&gt;</div></pre></td></tr></table></figure>
+
+<p>注意1: 此处的邮箱地址，你可以输入自己的邮箱地址；注意2: 此处的「-C」的是大写的「C」</p>
+<p>然后系统会要你输入密码：(可以不用输入按回车pass过)</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="constant">Enter</span> passphrase (empty <span class="keyword">for</span> no passphrase)<span class="symbol">:&lt;</span>输入加密串&gt;</div><div class="line"><span class="constant">Enter</span> same passphrase <span class="symbol">again:</span>&lt;再次输入加密串&gt;</div></pre></td></tr></table></figure>
+
+<p>注意：输入密码的时候没有*字样的，你直接输入就可以了。<br>最后看到这样的界面，就成功设置ssh key了：<br><img src="/img/hexo3.png" alt=""></p>
+<h2 id="添加SSH_Key到GitHub">添加SSH Key到GitHub</h2>
+<p>在本机设置SSH Key之后，需要添加到GitHub上，以完成SSH链接的设置。<br>1、打开本地C:\Documents and Settings\Administrator.ssh\id_rsa.pub文件。此文件里面内容为刚才生成人密钥。如果看不到这个文件，你需要设置显示隐藏文件。准确的复制这个文件的内容，才能保证设置的成功。<br>2、登陆github系统。点击右上角的 Account Settings—-&gt;SSH Public keys —-&gt; add another public keys<br>3、把你本地生成的密钥复制到里面（key文本框中）， 点击 add key 就ok了。</p>
+<h2 id="测试ssh">测试ssh</h2>
+<p>可以输入下面的命令，看看设置是否成功，git@github.com的部分不要修改：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$ </span>ssh -<span class="constant">T</span> git<span class="variable">@github</span>.com</div></pre></td></tr></table></figure>
+
+<p>如果是下面的反馈：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">The authenticity <span class="keyword">of</span> host <span class="comment">'github.com (207.97.227.239)' can't be established.</span></div><div class="line">RSA <span class="keyword">key</span> fingerprint <span class="keyword">is</span> <span class="number">16</span>:<span class="number">27</span>:ac:a5:<span class="number">76</span>:<span class="number">28</span>:<span class="number">2</span>d:<span class="number">36</span>:<span class="number">63</span>:<span class="number">1</span>b:<span class="number">56</span>:<span class="number">4</span>d:eb:df:a6:<span class="number">48.</span></div><div class="line">Are you sure you want <span class="keyword">to</span> <span class="keyword">continue</span> connecting (yes/no)?</div></pre></td></tr></table></figure>
+
+<p>不要紧张，输入yes就好，然后会看到：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Hi cnfeat! You<span class="attribute">'ve</span> successfully authenticated, but GitHub does <span class="keyword">not</span> provide shell <span class="keyword">access</span>.</div></pre></td></tr></table></figure>
+
+<p>设置用户信息<br>现在你已经可以通过SSH链接到GitHub了，还有一些个人信息需要完善的。<br>Git会根据用户的名字和邮箱来记录提交。GitHub也是用这些信息来做权限的处理，输入下面的代码进行个人信息的设置，把名称和邮箱替换成你自己的，名字必须是你的真名，而不是GitHub的昵称。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ git config --<span class="keyword">global</span> user.name <span class="string">"ngooi"</span><span class="comment">//用户名</span></div><div class="line">$ git config --<span class="keyword">global</span> user.email  <span class="string">"ngooi@gmail.com"</span><span class="comment">//填写自己的邮箱</span></div></pre></td></tr></table></figure>
+
+<p>SSH Key配置成功<br>本机已成功连接到github。</p>
+<h2 id="部署">部署</h2>
+<p>编辑<code>_config.yml</code>(在H:\hexo下)。你在部署时，要把下面的ngooi都换成你的账号名</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  <span class="class"><span class="keyword">type</span>: <span class="title">github</span></span></div><div class="line">  repository: https:<span class="comment">//github.com/ngooi/ngooi.github.io.git</span></div><div class="line">  branch: master</div></pre></td></tr></table></figure>
+
+<p>执行下列指令即可完成部署。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="title">hexo</span> g</div><div class="line">hexo d</div></pre></td></tr></table></figure>
+
+<p>到这里我们的hexo博客已经部署在github上了，等上十来分钟，在浏览器上输入：<a href="ngooi.github.io">ngooi.github.io</a>就能看到你的博客了。</p>
+<h2 id="记住">记住</h2>
+<p>每次修改本地文件后，需要<code>hexo g</code>才能保存。每次使用命令时，都要在H:\hexo目录下。<br>下一章是hexo github page 独立域名绑定</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="IN_WINDOWS">IN WINDOWS</h2>
+<p>接上一章，首先:</p>
+<h2 id="注册Github账号">注册Github账号</h2>
+<p>已有账号可以跳过，没有的，请<a href="https://github.com/signup/free" target="_blank" rel="external">点这里</a>进行注册。表说你不会！</p>
+<h2 id="创建repository">创建repository</h2>
+<p>在自己<a href="https://github.com/" target="_blank" rel="external">Github</a>主页右上角，点“+”创建一个新的New repository。比如我的Github账号是ngooi，那么我应该创建的repository名字应该是ngooi.github.io。这里很重要！我一开始就在这里跌倒了，名字一定要以<code>github.io</code>结尾！如图，把“ngooi”换成自己的名字就可以。<br><img src="/img/hexo2.jpg" alt=""></p>
+]]>
+    
+    </summary>
+    
+      <category term="hexo博客" scheme="http://ngooi.cn/tags/hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[github hexo博客搭建(一)]]></title>
+    <link href="http://ngooi.cn/2014/11/10/hexo-blog-da-jian-1/"/>
+    <id>http://ngooi.cn/2014/11/10/hexo-blog-da-jian-1/</id>
+    <published>2014-11-10T07:47:12.000Z</published>
+    <updated>2014-11-11T10:10:58.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="IN_WINDOWS">IN WINDOWS</h2>
+<ul>
+<li>安装Git<br>下载<a href="http://code.google.com/p/msysgit/" target="_blank" rel="external"> msysgit</a> 并执行即可完成安装。</li>
+</ul>
+<ul>
+<li>安装Node.js<br>在 Windows 环境下安装 <a href="http://nodejs.org/" target="_blank" rel="external">Node.js</a> 非常简单，仅须下载安装文件并执行即可完成安装。</li>
+</ul>
+<ul>
+<li>安装hexo<br>利用 npm 命令即可安装。（在任意位置点击鼠标右键，选择Git bash）</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm <span class="operator"><span class="keyword">install</span> -g hexo</span></div></pre></td></tr></table></figure>
+
+<h2 id="创建hexo文件夹">创建hexo文件夹</h2>
+<p>安装完成后，在你喜爱的文件夹下（如H:\hexo），执行以下指令(在H:\hexo内点击鼠标右键，选择Git bash)，Hexo 即会自动在目标文件夹建立网站所需要的所有文件。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo <span class="keyword">init</span></div></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<h2 id="安装依赖包">安装依赖包</h2>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo <span class="operator"><span class="keyword">install</span></span></div></pre></td></tr></table></figure>
+
+<p>现在我们已经搭建起本地的hexo博客了，执行以下命令(在H:\hexo文件夹右键“Git Bash”)</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="title">hexo</span> g</div><div class="line">hexo s</div></pre></td></tr></table></figure>
+
+<p>好了，至此，本地博客已经搭建起来了,然后到浏览器输入localhost:4000看看。只是本地可以浏览!!!<br>下一章讲解在github部署hexo博客。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="IN_WINDOWS">IN WINDOWS</h2>
+<ul>
+<li>安装Git<br>下载<a href="http://code.google.com/p/msysgit/" target="_blank" rel="external"> msysgit</a> 并执行即可完成安装。</li>
+</ul>
+<ul>
+<li>安装Node.js<br>在 Windows 环境下安装 <a href="http://nodejs.org/" target="_blank" rel="external">Node.js</a> 非常简单，仅须下载安装文件并执行即可完成安装。</li>
+</ul>
+<ul>
+<li>安装hexo<br>利用 npm 命令即可安装。（在任意位置点击鼠标右键，选择Git bash）</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm <span class="operator"><span class="keyword">install</span> -g hexo</span></div></pre></td></tr></table></figure>
+
+<h2 id="创建hexo文件夹">创建hexo文件夹</h2>
+<p>安装完成后，在你喜爱的文件夹下（如H:\hexo），执行以下指令(在H:\hexo内点击鼠标右键，选择Git bash)，Hexo 即会自动在目标文件夹建立网站所需要的所有文件。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo <span class="keyword">init</span></div></pre></td></tr></table></figure>
+
+]]>
+    
+    </summary>
+    
+      <category term="hexo博客" scheme="http://ngooi.cn/tags/hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[The new Day]]></title>
+    <link href="http://ngooi.cn/2014/11/10/The-new-Day/"/>
+    <id>http://ngooi.cn/2014/11/10/The-new-Day/</id>
+    <published>2014-11-10T07:23:49.000Z</published>
+    <updated>2014-11-10T07:30:54.000Z</updated>
+    <content type="html"><![CDATA[<p>第一次用这个<br>感觉还好</p>
+<ul>
+<li>做什么事都有第一次，每一次都有成长，第一次都会使人生的轨迹发生变化，也让我不知道怎么样，但都要试试。</li>
+<li>比如说：经常喝<code>装B水</code>所谓<code>装B水</code>就是我这人喜欢尝试一些新的饮料！</li>
+<li>成长总是要代价的，但你还是得成长，不能整天窝在这里，人，都会变的，你也一样</li>
+<li>我不怕长大，但我害怕着…</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">很小的时候就发现，眼睛动的时候，</div><div class="line">好像能看到一条小线在眼睛表面动，形状会变化的。</div><div class="line">一直以为自己是外星人，或者是具有特异功能，与众不同</div><div class="line">。但前段时间去医院跟医生详细地描述了一下，医生给出的结论是：眼睛玻璃体浑浊了。</div><div class="line">我靠，我的外星人梦想破灭了。</div></pre></td></tr></table></figure>
+
+<p>超级喜欢的一个笑话！</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>第一次用这个<br>感觉还好</p>
+<ul>
+<li>做什么事都有第一次，每一次都有成长，第一次都会使人生的轨迹发生变化，也让我不知道怎么样，但都要试试。</li>
+<li>比如说：经常喝<code>装B水</code>所谓<code>装B水</code>就是我这人喜欢尝]]>
+    </summary>
+    
+      <category term="碎碎念" scheme="http://ngooi.cn/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://ngooi.cn/2014/11/09/hello-world/"/>
+    <id>http://ngooi.cn/2014/11/09/hello-world/</id>
+    <published>2014-11-09T12:22:32.000Z</published>
+    <updated>2014-11-09T12:22:32.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start">Quick Start</h2>
+<h3 id="Create_a_new_post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
+    </summary>
+    
+  </entry>
+  
+</feed>
